@@ -1,12 +1,21 @@
 {
-  "name": "hexie-encode",
-  "version": "1.0.0",
-  "description": "",
-  "main": "hexie.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+	"name": "hexie-encode",
+	"version": "1.0.1",
+	"description": "",
+	"main": "hexie.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"encode",
+		"decode",
+		"encryption",
+		"encrypt"
+	],
+	"author": "wheatup",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wheatup/hexie-encode.git"
+	}
 }
