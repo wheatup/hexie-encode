@@ -3,7 +3,7 @@ const _dict = ['富强', '民主', '文明', '和谐', '自由', '平等', '公�
 const encode = (src, dict = _dict) => {
 	dict = [...new Set(Array.isArray(dict) ? dict : [...dict])];
 	const decimal = dict.length - 1;
-	const codes = [...src.toString()].map(e => {
+	const codes = src.toString().split('').map(e => {
 		const code = e.charCodeAt(0);
 
 		const digits = [code % decimal];
