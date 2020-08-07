@@ -6,6 +6,10 @@
 
 > `npm i hexie-encode`
 
+## 在线使用
+
+> [https://wheatup.github.io/#/hexie](https://wheatup.github.io/#/hexie)
+
 ### 用社会主义核心价值观对字符串进行对称加解密
 
 ```javascript
