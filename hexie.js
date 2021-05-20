@@ -5,10 +5,9 @@ const encode = (src, dict = _dict) => {
 	const decimal = dict.length - 1;
 	const codes = src.toString().split('').map(e => {
 		const code = e.charCodeAt(0);
-
 		const digits = [code % decimal];
 		let remainder = code;
-		while ((remainder /= decimal) > 1) {
+		while ((remainder /= decimal) >= 1) {
 			digits.unshift(remainder % decimal ^ 0);
 		}
 		return digits;
